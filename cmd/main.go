@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"go-essentials/internal"
+)
 
 func main() {
-	fmt.Print("init")
+	//internal.DataTypes()
+	//internal.Functions()
+	internal.Arrays()
 }
